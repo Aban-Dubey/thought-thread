@@ -1,0 +1,35 @@
+/* UpdateBlog.module.css */
+.updateBlogContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 85vh;
+}
+
+.updateBlogTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.inputField,
+.textareaField {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.updateButton {
+  background-color: #3490dc;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.updateButton:hover {
+  background-color: #2779bd;
+}

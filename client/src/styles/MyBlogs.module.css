@@ -1,0 +1,46 @@
+/* BlogHome.module.css */
+.blogContainer {
+    padding: 2rem;
+  }
+  
+  .blogList {
+    gap: 1rem;
+  }
+  
+  .blogCard {
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 30%;
+    min-width: 200px; /* Set a minimum width for better responsiveness */
+  }
+  
+  .blogTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blogDescription {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blogAuthor {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh; /* Set a minimum height of 100% of the viewport height */
+  }
+  
+  .main {
+    flex: 1; /* Grow to fill the available space */
+  }
+  
