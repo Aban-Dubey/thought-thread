@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { getUsername } from "../helper/helper.js";
 
-axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.baseURL = "https://thought-thread-server.vercel.app/";
 //custom hook
 export default function useFetch(query){
     const [ getData, setData ] = useState({ isLoading: false, apiData: undefined, status: null, serverError: null });

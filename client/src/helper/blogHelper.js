@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 //BlogHome
-axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.baseURL = "https://thought-thread-server.vercel.app/";
 
 export async function fetchBlogs() {
   try {

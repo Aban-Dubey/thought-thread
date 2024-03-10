@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {jwtDecode} from 'jwt-decode';
 
-axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.baseURL = "https://thought-thread-server.vercel.app/";
 
 //Make API requests
 
